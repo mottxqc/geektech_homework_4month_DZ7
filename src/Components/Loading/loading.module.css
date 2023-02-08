@@ -1,0 +1,25 @@
+.loadingContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loadingContainer div {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 10px solid #646cff;
+  border-top-color: transparent;
+  animation: spin 2s infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

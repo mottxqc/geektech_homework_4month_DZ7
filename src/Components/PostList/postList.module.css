@@ -1,0 +1,37 @@
+.posts_container {
+    margin-top: 40px;
+}
+  
+.posts {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+  
+.post {
+    width: 100%;
+    background-color: darkslategray;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+  
+.post > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.post h2 {
+    margin: 0;
+    word-wrap: break-word;
+    padding: 20px 15px;
+}
+  
+.post p {
+    padding: 0 15px 20px;
+}
+  
+.post:hover {
+    border-color: blue;
+}
